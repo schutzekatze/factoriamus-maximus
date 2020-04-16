@@ -7,6 +7,7 @@ Tasks:
 
     - Remove orphan nodes
     - Add weights ("amount" of "ingredient")
+    - Add directions (color-coded probs a good idea)
     - Node colors should match "type"
     - Move labels above or below the nodes
     - more soon(tm)
