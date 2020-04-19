@@ -1,7 +1,7 @@
 import json
 import matplotlib.pyplot as plt
 import networkx as nx
-
+import subprocess
 
 """
 Process the raw JSON, clean up and add IDs as numbers
@@ -31,7 +31,7 @@ def recipes_prep4viz(recipes_input_path, recipes_output_path):
 def build_graph(trimmed_recipes_json_path):
 
     # G = nx.frucht_graph()
-    G = nx.Graph()
+    G = nx.DiGraph()
 
     node_labels_mapping = {}
 
@@ -44,7 +44,7 @@ def build_graph(trimmed_recipes_json_path):
     
     for recipe in recipes:
         for ingredient in recipe["recipe"]["ingredients"]:
-            G.add_edge(recipe["id"], ingredient["id"])
+            G.add_edge(ingredient["id"], recipe["id"])
 
     G = nx.relabel_nodes(G, node_labels_mapping)
 
@@ -55,10 +55,18 @@ def build_graph(trimmed_recipes_json_path):
 
 G = build_graph("trimmed_recipes.json")
 
-nx.draw_kamada_kawai(G)
-positions = nx.kamada_kawai_layout(G)
+pydot_graph = nx.drawing.nx_pydot.to_pydot(G)
+pydot_graph.set_strict(False)
+pydot_graph.set_concentrate(True)
+pydot_graph.set_rankdir("LR")
+pydot_graph.set_name("factorio")
+pydot_graph.write("graph.dot", prog='dot')
+subprocess.run(['dot', '-T', 'png', '-O', 'graph.dot'])
 
-nx.draw_networkx_labels(G, positions)
-nx.draw_networkx_edges(G, positions, width=0.25, edge_color='grey')
+#nx.draw_shell(G)
+#positions = nx.shell_layout(G)
 
-plt.show()
+#nx.draw_networkx_labels(G, positions)
+#nx.draw_networkx_edges(G, positions, width=0.25, edge_color='grey')
+
+#plt.show()
