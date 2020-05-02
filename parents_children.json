@@ -1,0 +1,6411 @@
+[
+    {
+            "category": "Production",
+            "full_name": "Accumulator",
+            "name_id": "accumulator",
+            "number_id": 1,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "satellite"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "battery"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Active provider chest",
+            "name_id": "logistic-chest-active-provider",
+            "number_id": 2,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "steel-chest"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Advanced circuit",
+            "name_id": "advanced-circuit",
+            "number_id": 3,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "logistic-chest-active-provider"
+                    },
+                    {
+                        "id": "artillery-turret"
+                    },
+                    {
+                        "id": "artillery-wagon"
+                    },
+                    {
+                        "id": "beacon"
+                    },
+                    {
+                        "id": "logistic-chest-buffer"
+                    },
+                    {
+                        "id": "centrifuge"
+                    },
+                    {
+                        "id": "distractor-capsule"
+                    },
+                    {
+                        "id": "effectivity-module"
+                    },
+                    {
+                        "id": "effectivity-module-2"
+                    },
+                    {
+                        "id": "effectivity-module-3"
+                    },
+                    {
+                        "id": "electric-furnace"
+                    },
+                    {
+                        "id": "energy-shield"
+                    },
+                    {
+                        "id": "express-splitter"
+                    },
+                    {
+                        "id": "logistic-robot"
+                    },
+                    {
+                        "id": "modular-armor"
+                    },
+                    {
+                        "id": "nightvision"
+                    },
+                    {
+                        "id": "nuclear-reactor"
+                    },
+                    {
+                        "id": "logistic-chest-passive-provider"
+                    },
+                    {
+                        "id": "personal-roboport"
+                    },
+                    {
+                        "id": "portable-solar-panel"
+                    },
+                    {
+                        "id": "processing-unit"
+                    },
+                    {
+                        "id": "productivity-module"
+                    },
+                    {
+                        "id": "productivity-module-2"
+                    },
+                    {
+                        "id": "productivity-module-3"
+                    },
+                    {
+                        "id": "logistic-chest-requester"
+                    },
+                    {
+                        "id": "roboport"
+                    },
+                    {
+                        "id": "science-pack-3"
+                    },
+                    {
+                        "id": "speed-module"
+                    },
+                    {
+                        "id": "speed-module-2"
+                    },
+                    {
+                        "id": "speed-module-3"
+                    },
+                    {
+                        "id": "stack-inserter"
+                    },
+                    {
+                        "id": "logistic-chest-storage"
+                    },
+                    {
+                        "id": "substation"
+                    },
+                    {
+                        "id": "tank"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 4,
+                        "id": "copper-cable"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "plastic-bar"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 6
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Arithmetic combinator",
+            "name_id": "arithmetic-combinator",
+            "number_id": 4,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "copper-cable"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "electronic-circuit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Logic"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Artillery shell",
+            "name_id": "artillery-shell",
+            "number_id": 5,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 4,
+                        "id": "explosive-cannon-shell"
+                    },
+                    {
+                        "amount": 8,
+                        "id": "explosives"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "radar"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 15
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Artillery targeting remote",
+            "name_id": "artillery-targeting-remote",
+            "number_id": 6,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "radar"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Artillery turret",
+            "name_id": "artillery-turret",
+            "number_id": 7,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 20,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 60,
+                        "id": "concrete"
+                    },
+                    {
+                        "amount": 40,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 60,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 40
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Artillery wagon",
+            "name_id": "artillery-wagon",
+            "number_id": 8,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 20,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 64,
+                        "id": "engine-unit"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 16,
+                        "id": "pipe"
+                    },
+                    {
+                        "amount": 40,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 4
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Assembling machine 1",
+            "name_id": "assembling-machine-1",
+            "number_id": 9,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "assembling-machine-2"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 3,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 9,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Assembling machine 2",
+            "name_id": "assembling-machine-2",
+            "number_id": 10,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "assembling-machine-3"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "assembling-machine-1"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 9,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Assembling machine 3",
+            "name_id": "assembling-machine-3",
+            "number_id": 11,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 2,
+                        "id": "assembling-machine-2"
+                    },
+                    {
+                        "amount": 4,
+                        "id": "speed-module"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Atomic bomb",
+            "name_id": "atomic-bomb",
+            "number_id": 12,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "explosives"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 30,
+                        "id": "uranium-235"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 50
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Battery",
+            "name_id": "battery",
+            "number_id": 13,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "accumulator"
+                    },
+                    {
+                        "id": "battery-mk1"
+                    },
+                    {
+                        "id": "flying-robot-frame"
+                    },
+                    {
+                        "id": "high-tech-science-pack"
+                    },
+                    {
+                        "id": "laser-turret"
+                    },
+                    {
+                        "id": "personal-roboport"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "sulfuric-acid"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 5
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Battery MK1",
+            "name_id": "battery-mk1",
+            "number_id": 14,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "battery-mk2"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "battery"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Battery MK2",
+            "name_id": "battery-mk2",
+            "number_id": 15,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "battery-mk1"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "processing-unit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Beacon",
+            "name_id": "beacon",
+            "number_id": 16,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 20,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "copper-cable"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 15
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Big electric pole",
+            "name_id": "big-electric-pole",
+            "number_id": 17,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Blueprint",
+            "name_id": "blueprint",
+            "number_id": 18,
+            "recipe": {
+                "children": [],
+                "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Tool"
+        },
+    {
+            "category": "Production",
+            "full_name": "Blueprint book",
+            "name_id": "blueprint-book",
+            "number_id": 19,
+            "recipe": {
+                "children": [],
+                "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Tool"
+        },
+    {
+            "category": "Production",
+            "full_name": "Boiler",
+            "name_id": "boiler",
+            "number_id": 20,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 4,
+                        "id": "pipe"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "stone-furnace"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Buffer chest",
+            "name_id": "logistic-chest-buffer",
+            "number_id": 21,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "steel-chest"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Burner inserter",
+            "name_id": "burner-inserter",
+            "number_id": 22,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Burner mining drill",
+            "name_id": "burner-mining-drill",
+            "number_id": 23,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 3,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "stone-furnace"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 4
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Cannon shell",
+            "name_id": "cannon-shell",
+            "number_id": 24,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "uranium-cannon-shell"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "explosives"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "plastic-bar"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Car",
+            "name_id": "car",
+            "number_id": 25,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 8,
+                        "id": "engine-unit"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 2
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Cargo wagon",
+            "name_id": "cargo-wagon",
+            "number_id": 26,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 1
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Centrifuge",
+            "name_id": "centrifuge",
+            "number_id": 27,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 100,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 100,
+                        "id": "concrete"
+                    },
+                    {
+                        "amount": 100,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 50,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 4
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Chemical plant",
+            "name_id": "chemical-plant",
+            "number_id": 28,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "pipe"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Cliff explosives",
+            "name_id": "cliff-explosives",
+            "number_id": 29,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "empty-barrel"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "explosives"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "grenade"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Cluster grenade",
+            "name_id": "cluster-grenade",
+            "number_id": 30,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "explosives"
+                    },
+                    {
+                        "amount": 7,
+                        "id": "grenade"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Coal",
+            "name_id": "coal",
+            "number_id": 31,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "explosives"
+                    },
+                    {
+                        "id": "grenade"
+                    },
+                    {
+                        "id": "plastic-bar"
+                    },
+                    {
+                        "id": "poison-capsule"
+                    },
+                    {
+                        "id": "slowdown-capsule"
+                    }
+                ],
+            "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Resource"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Combat shotgun",
+            "name_id": "combat-shotgun",
+            "number_id": 32,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 15,
+                        "id": "steel-plate"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "wood"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Concrete",
+            "name_id": "concrete",
+            "number_id": 33,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "artillery-turret"
+                    },
+                    {
+                        "id": "centrifuge"
+                    },
+                    {
+                        "id": "hazard-concrete"
+                    },
+                    {
+                        "id": "nuclear-reactor"
+                    },
+                    {
+                        "id": "refined-concrete"
+                    },
+                    {
+                        "id": "rocket-silo"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "iron-ore"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "stone-brick"
+                    },
+                    {
+                        "amount": 100,
+                        "id": "water"
+                    }
+                ],
+            "recipe_yield": 10,
+                "time": 10
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Constant combinator",
+            "name_id": "constant-combinator",
+            "number_id": 34,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "copper-cable"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "electronic-circuit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Logic"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Construction robot",
+            "name_id": "construction-robot",
+            "number_id": 35,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 2,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "flying-robot-frame"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Copper cable",
+            "name_id": "copper-cable",
+            "number_id": 36,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "id": "arithmetic-combinator"
+                    },
+                    {
+                        "id": "beacon"
+                    },
+                    {
+                        "id": "constant-combinator"
+                    },
+                    {
+                        "id": "decider-combinator"
+                    },
+                    {
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "id": "green-wire"
+                    },
+                    {
+                        "id": "high-tech-science-pack"
+                    },
+                    {
+                        "id": "power-switch"
+                    },
+                    {
+                        "id": "programmable-speaker"
+                    },
+                    {
+                        "id": "red-wire"
+                    },
+                    {
+                        "id": "small-electric-pole"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "copper-plate"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 0.5
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Copper ore",
+            "name_id": "copper-ore",
+            "number_id": 37,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "copper-plate"
+                    }
+                ],
+            "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Resource"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Copper plate",
+            "name_id": "copper-plate",
+            "number_id": 38,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "battery"
+                    },
+                    {
+                        "id": "big-electric-pole"
+                    },
+                    {
+                        "id": "combat-shotgun"
+                    },
+                    {
+                        "id": "copper-cable"
+                    },
+                    {
+                        "id": "gun-turret"
+                    },
+                    {
+                        "id": "heat-exchanger"
+                    },
+                    {
+                        "id": "heat-pipe"
+                    },
+                    {
+                        "id": "heavy-armor"
+                    },
+                    {
+                        "id": "low-density-structure"
+                    },
+                    {
+                        "id": "medium-electric-pole"
+                    },
+                    {
+                        "id": "nuclear-reactor"
+                    },
+                    {
+                        "id": "piercing-rounds-magazine"
+                    },
+                    {
+                        "id": "piercing-shotgun-shells"
+                    },
+                    {
+                        "id": "pistol"
+                    },
+                    {
+                        "id": "science-pack-1"
+                    },
+                    {
+                        "id": "shotgun"
+                    },
+                    {
+                        "id": "shotgun-shells"
+                    },
+                    {
+                        "id": "solar-panel"
+                    },
+                    {
+                        "id": "steam-turbine"
+                    },
+                    {
+                        "id": "submachine-gun"
+                    },
+                    {
+                        "id": "substation"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "copper-ore"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 3.5
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Crude oil",
+            "name_id": "crude-oil",
+            "number_id": 39,
+            "recipe": {
+                "children": [],
+                "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Liquid"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Crude oil barrel",
+            "name_id": "crude-oil-barrel",
+            "number_id": 40,
+            "recipe": {
+                "children": [],
+                "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "null"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Decider combinator",
+            "name_id": "decider-combinator",
+            "number_id": 41,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "copper-cable"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "electronic-circuit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Logic"
+        },
+    {
+            "category": "category_TODO",
+            "full_name": "Deconstruction planner",
+            "name_id": "deconstruction-planner",
+            "number_id": 42,
+            "recipe": {
+                "children": [],
+                "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Tool"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Defender capsule",
+            "name_id": "defender-capsule",
+            "number_id": 43,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "distractor-capsule"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 2,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "piercing-rounds-magazine"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Destroyer capsule",
+            "name_id": "destroyer-capsule",
+            "number_id": 44,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 4,
+                        "id": "distractor-capsule"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "speed-module"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 15
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Discharge defense",
+            "name_id": "discharge-defense",
+            "number_id": 45,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "laser-turret"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Discharge defense remote",
+            "name_id": "discharge-defense-remote",
+            "number_id": 46,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "electronic-circuit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Distractor capsule",
+            "name_id": "distractor-capsule",
+            "number_id": 47,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "destroyer-capsule"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 3,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 4,
+                        "id": "defender-capsule"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 15
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Production",
+            "full_name": "Efficiency module",
+            "name_id": "effectivity-module",
+            "number_id": 48,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "effectivity-module-2"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "electronic-circuit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 15
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Production",
+            "full_name": "Efficiency module 2",
+            "name_id": "effectivity-module-2",
+            "number_id": 49,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "effectivity-module-3"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 4,
+                        "id": "effectivity-module"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "processing-unit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 30
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Production",
+            "full_name": "Efficiency module 3",
+            "name_id": "effectivity-module-3",
+            "number_id": 50,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "power-armor-mk2"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "effectivity-module-2"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "processing-unit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 60
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Electric engine unit",
+            "name_id": "electric-engine-unit",
+            "number_id": 51,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "exoskeleton"
+                    },
+                    {
+                        "id": "flying-robot-frame"
+                    },
+                    {
+                        "id": "power-armor"
+                    },
+                    {
+                        "id": "production-science-pack"
+                    },
+                    {
+                        "id": "rocket-silo"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 2,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "engine-unit"
+                    },
+                    {
+                        "amount": 15,
+                        "id": "lubricant"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Production",
+            "full_name": "Electric furnace",
+            "name_id": "electric-furnace",
+            "number_id": 52,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "production-science-pack"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "steel-plate"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "stone-brick"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Electric mining drill",
+            "name_id": "electric-mining-drill",
+            "number_id": 53,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "science-pack-3"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 3,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 2
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Electronic circuit",
+            "name_id": "electronic-circuit",
+            "number_id": 54,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "logistic-chest-active-provider"
+                    },
+                    {
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "id": "arithmetic-combinator"
+                    },
+                    {
+                        "id": "assembling-machine-1"
+                    },
+                    {
+                        "id": "assembling-machine-2"
+                    },
+                    {
+                        "id": "beacon"
+                    },
+                    {
+                        "id": "logistic-chest-buffer"
+                    },
+                    {
+                        "id": "chemical-plant"
+                    },
+                    {
+                        "id": "constant-combinator"
+                    },
+                    {
+                        "id": "construction-robot"
+                    },
+                    {
+                        "id": "decider-combinator"
+                    },
+                    {
+                        "id": "defender-capsule"
+                    },
+                    {
+                        "id": "discharge-defense-remote"
+                    },
+                    {
+                        "id": "effectivity-module"
+                    },
+                    {
+                        "id": "electric-engine-unit"
+                    },
+                    {
+                        "id": "electric-mining-drill"
+                    },
+                    {
+                        "id": "fast-inserter"
+                    },
+                    {
+                        "id": "fast-splitter"
+                    },
+                    {
+                        "id": "filter-inserter"
+                    },
+                    {
+                        "id": "flying-robot-frame"
+                    },
+                    {
+                        "id": "gate"
+                    },
+                    {
+                        "id": "green-wire"
+                    },
+                    {
+                        "id": "inserter"
+                    },
+                    {
+                        "id": "lab"
+                    },
+                    {
+                        "id": "lamp"
+                    },
+                    {
+                        "id": "laser-turret"
+                    },
+                    {
+                        "id": "locomotive"
+                    },
+                    {
+                        "id": "offshore-pump"
+                    },
+                    {
+                        "id": "oil-refinery"
+                    },
+                    {
+                        "id": "logistic-chest-passive-provider"
+                    },
+                    {
+                        "id": "poison-capsule"
+                    },
+                    {
+                        "id": "power-switch"
+                    },
+                    {
+                        "id": "processing-unit"
+                    },
+                    {
+                        "id": "productivity-module"
+                    },
+                    {
+                        "id": "programmable-speaker"
+                    },
+                    {
+                        "id": "pumpjack"
+                    },
+                    {
+                        "id": "radar"
+                    },
+                    {
+                        "id": "rail-chain-signal"
+                    },
+                    {
+                        "id": "rail-signal"
+                    },
+                    {
+                        "id": "red-wire"
+                    },
+                    {
+                        "id": "repair-pack"
+                    },
+                    {
+                        "id": "logistic-chest-requester"
+                    },
+                    {
+                        "id": "rocket"
+                    },
+                    {
+                        "id": "rocket-launcher"
+                    },
+                    {
+                        "id": "slowdown-capsule"
+                    },
+                    {
+                        "id": "solar-panel"
+                    },
+                    {
+                        "id": "speed-module"
+                    },
+                    {
+                        "id": "splitter"
+                    },
+                    {
+                        "id": "stack-filter-inserter"
+                    },
+                    {
+                        "id": "stack-inserter"
+                    },
+                    {
+                        "id": "logistic-chest-storage"
+                    },
+                    {
+                        "id": "train-stop"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 3,
+                        "id": "copper-cable"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Empty barrel",
+            "name_id": "empty-barrel",
+            "number_id": 55,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "cliff-explosives"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 1
+            },
+            "type": "null"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Energy shield",
+            "name_id": "energy-shield",
+            "number_id": 56,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "energy-shield-mk2"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Energy shield MK2",
+            "name_id": "energy-shield-mk2",
+            "number_id": 57,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "energy-shield"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "processing-unit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Engine unit",
+            "name_id": "engine-unit",
+            "number_id": 58,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "artillery-wagon"
+                    },
+                    {
+                        "id": "car"
+                    },
+                    {
+                        "id": "electric-engine-unit"
+                    },
+                    {
+                        "id": "flamethrower-turret"
+                    },
+                    {
+                        "id": "locomotive"
+                    },
+                    {
+                        "id": "pump"
+                    },
+                    {
+                        "id": "science-pack-3"
+                    },
+                    {
+                        "id": "tank"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "pipe"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Exoskeleton",
+            "name_id": "exoskeleton",
+            "number_id": 59,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 30,
+                        "id": "electric-engine-unit"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Explosive cannon shell",
+            "name_id": "explosive-cannon-shell",
+            "number_id": 60,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "artillery-shell"
+                    },
+                    {
+                        "id": "explosive-uranium-cannon-shell"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 2,
+                        "id": "explosives"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "plastic-bar"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Explosive rocket",
+            "name_id": "explosive-rocket",
+            "number_id": 61,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 2,
+                        "id": "explosives"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "rocket"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Explosive uranium cannon shell",
+            "name_id": "explosive-uranium-cannon-shell",
+            "number_id": 62,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "explosive-cannon-shell"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "uranium-238"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 12
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Explosives",
+            "name_id": "explosives",
+            "number_id": 63,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "artillery-shell"
+                    },
+                    {
+                        "id": "atomic-bomb"
+                    },
+                    {
+                        "id": "cannon-shell"
+                    },
+                    {
+                        "id": "cliff-explosives"
+                    },
+                    {
+                        "id": "cluster-grenade"
+                    },
+                    {
+                        "id": "explosive-cannon-shell"
+                    },
+                    {
+                        "id": "explosive-rocket"
+                    },
+                    {
+                        "id": "land-mine"
+                    },
+                    {
+                        "id": "rocket"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "coal"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "sulfur"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "water"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 5
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Express splitter",
+            "name_id": "express-splitter",
+            "number_id": 64,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "fast-splitter"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 80,
+                        "id": "lubricant"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 2
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Express transport belt",
+            "name_id": "express-transport-belt",
+            "number_id": 65,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "fast-transport-belt"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "lubricant"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Express underground belt",
+            "name_id": "express-underground-belt",
+            "number_id": 66,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 2,
+                        "id": "fast-underground-belt"
+                    },
+                    {
+                        "amount": 80,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 40,
+                        "id": "lubricant"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 2
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Fast inserter",
+            "name_id": "fast-inserter",
+            "number_id": 67,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "filter-inserter"
+                    },
+                    {
+                        "id": "stack-inserter"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 2,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "inserter"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Fast splitter",
+            "name_id": "fast-splitter",
+            "number_id": 68,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "express-splitter"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 10,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "splitter"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 2
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Fast transport belt",
+            "name_id": "fast-transport-belt",
+            "number_id": 69,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "express-transport-belt"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "transport-belt"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Fast underground belt",
+            "name_id": "fast-underground-belt",
+            "number_id": 70,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "express-underground-belt"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 40,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "underground-belt"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 2
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Filter inserter",
+            "name_id": "filter-inserter",
+            "number_id": 71,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 4,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "fast-inserter"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Firearm magazine",
+            "name_id": "firearm-magazine",
+            "number_id": 72,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "piercing-rounds-magazine"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 4,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 1
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Flamethrower",
+            "name_id": "flamethrower",
+            "number_id": 73,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Flamethrower ammo",
+            "name_id": "flamethrower-ammo",
+            "number_id": 74,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 50,
+                        "id": "heavy-oil"
+                    },
+                    {
+                        "amount": 50,
+                        "id": "light-oil"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 6
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Flamethrower turret",
+            "name_id": "flamethrower-turret",
+            "number_id": 75,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "engine-unit"
+                    },
+                    {
+                        "amount": 15,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "pipe"
+                    },
+                    {
+                        "amount": 30,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 20
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Fluid wagon",
+            "name_id": "fluid-wagon",
+            "number_id": 76,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 8,
+                        "id": "pipe"
+                    },
+                    {
+                        "amount": 16,
+                        "id": "steel-plate"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "storage-tank"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 1.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Flying robot frame",
+            "name_id": "flying-robot-frame",
+            "number_id": 77,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "construction-robot"
+                    },
+                    {
+                        "id": "logistic-robot"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 2,
+                        "id": "battery"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "electric-engine-unit"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 20
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Gate",
+            "name_id": "gate",
+            "number_id": 78,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 2,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "steel-plate"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "stone-wall"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Green wire",
+            "name_id": "green-wire",
+            "number_id": 79,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "copper-cable"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "electronic-circuit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Logic"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Grenade",
+            "name_id": "grenade",
+            "number_id": 80,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "cliff-explosives"
+                    },
+                    {
+                        "id": "cluster-grenade"
+                    },
+                    {
+                        "id": "military-science-pack"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 10,
+                        "id": "coal"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Gun turret",
+            "name_id": "gun-turret",
+            "number_id": 81,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "military-science-pack"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 10,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Hazard concrete",
+            "name_id": "hazard-concrete",
+            "number_id": 82,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "concrete"
+                    }
+                ],
+            "recipe_yield": 10,
+                "time": 0.25
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Production",
+            "full_name": "Heat exchanger",
+            "name_id": "heat-exchanger",
+            "number_id": 83,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 100,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "pipe"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 3
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Heat pipe",
+            "name_id": "heat-pipe",
+            "number_id": 84,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 20,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 1
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Heavy armor",
+            "name_id": "heavy-armor",
+            "number_id": 85,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 100,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 50,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Heavy oil",
+            "name_id": "heavy-oil",
+            "number_id": 86,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "flamethrower-ammo"
+                    },
+                    {
+                        "id": "lubricant"
+                    }
+                ],
+            "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Liquid"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Heavy oil barrel",
+            "name_id": "heavy-oil-barrel",
+            "number_id": 87,
+            "recipe": {
+                "children": [],
+                "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "null"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "High tech science pack",
+            "name_id": "high-tech-science-pack",
+            "number_id": 88,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "battery"
+                    },
+                    {
+                        "amount": 30,
+                        "id": "copper-cable"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "speed-module"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 14
+            },
+            "type": "Science pack"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Inserter",
+            "name_id": "inserter",
+            "number_id": 89,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "fast-inserter"
+                    },
+                    {
+                        "id": "long-handed-inserter"
+                    },
+                    {
+                        "id": "science-pack-2"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Iron axe",
+            "name_id": "iron-axe",
+            "number_id": 90,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 3,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "iron-stick"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Tool"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Iron chest",
+            "name_id": "iron-chest",
+            "number_id": 91,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 8,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Iron gear wheel",
+            "name_id": "iron-gear-wheel",
+            "number_id": 92,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "artillery-turret"
+                    },
+                    {
+                        "id": "artillery-wagon"
+                    },
+                    {
+                        "id": "assembling-machine-1"
+                    },
+                    {
+                        "id": "assembling-machine-2"
+                    },
+                    {
+                        "id": "burner-inserter"
+                    },
+                    {
+                        "id": "burner-mining-drill"
+                    },
+                    {
+                        "id": "cargo-wagon"
+                    },
+                    {
+                        "id": "centrifuge"
+                    },
+                    {
+                        "id": "chemical-plant"
+                    },
+                    {
+                        "id": "combat-shotgun"
+                    },
+                    {
+                        "id": "defender-capsule"
+                    },
+                    {
+                        "id": "electric-mining-drill"
+                    },
+                    {
+                        "id": "engine-unit"
+                    },
+                    {
+                        "id": "express-splitter"
+                    },
+                    {
+                        "id": "express-transport-belt"
+                    },
+                    {
+                        "id": "express-underground-belt"
+                    },
+                    {
+                        "id": "fast-splitter"
+                    },
+                    {
+                        "id": "fast-transport-belt"
+                    },
+                    {
+                        "id": "fast-underground-belt"
+                    },
+                    {
+                        "id": "flamethrower"
+                    },
+                    {
+                        "id": "flamethrower-turret"
+                    },
+                    {
+                        "id": "fluid-wagon"
+                    },
+                    {
+                        "id": "gun-turret"
+                    },
+                    {
+                        "id": "inserter"
+                    },
+                    {
+                        "id": "lab"
+                    },
+                    {
+                        "id": "long-handed-inserter"
+                    },
+                    {
+                        "id": "offshore-pump"
+                    },
+                    {
+                        "id": "oil-refinery"
+                    },
+                    {
+                        "id": "personal-roboport"
+                    },
+                    {
+                        "id": "pumpjack"
+                    },
+                    {
+                        "id": "radar"
+                    },
+                    {
+                        "id": "repair-pack"
+                    },
+                    {
+                        "id": "roboport"
+                    },
+                    {
+                        "id": "rocket-launcher"
+                    },
+                    {
+                        "id": "science-pack-1"
+                    },
+                    {
+                        "id": "shotgun"
+                    },
+                    {
+                        "id": "stack-inserter"
+                    },
+                    {
+                        "id": "steam-engine"
+                    },
+                    {
+                        "id": "steam-turbine"
+                    },
+                    {
+                        "id": "submachine-gun"
+                    },
+                    {
+                        "id": "tank"
+                    },
+                    {
+                        "id": "transport-belt"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 2,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Iron ore",
+            "name_id": "iron-ore",
+            "number_id": 93,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "concrete"
+                    },
+                    {
+                        "id": "iron-plate"
+                    }
+                ],
+            "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Resource"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Iron plate",
+            "name_id": "iron-plate",
+            "number_id": 94,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "accumulator"
+                    },
+                    {
+                        "id": "assembling-machine-1"
+                    },
+                    {
+                        "id": "assembling-machine-2"
+                    },
+                    {
+                        "id": "battery"
+                    },
+                    {
+                        "id": "burner-inserter"
+                    },
+                    {
+                        "id": "burner-mining-drill"
+                    },
+                    {
+                        "id": "car"
+                    },
+                    {
+                        "id": "cargo-wagon"
+                    },
+                    {
+                        "id": "electric-mining-drill"
+                    },
+                    {
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "id": "fast-inserter"
+                    },
+                    {
+                        "id": "firearm-magazine"
+                    },
+                    {
+                        "id": "grenade"
+                    },
+                    {
+                        "id": "gun-turret"
+                    },
+                    {
+                        "id": "inserter"
+                    },
+                    {
+                        "id": "iron-axe"
+                    },
+                    {
+                        "id": "iron-chest"
+                    },
+                    {
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "id": "iron-stick"
+                    },
+                    {
+                        "id": "lamp"
+                    },
+                    {
+                        "id": "light-armor"
+                    },
+                    {
+                        "id": "long-handed-inserter"
+                    },
+                    {
+                        "id": "pipe"
+                    },
+                    {
+                        "id": "pipe-to-ground"
+                    },
+                    {
+                        "id": "pistol"
+                    },
+                    {
+                        "id": "power-switch"
+                    },
+                    {
+                        "id": "programmable-speaker"
+                    },
+                    {
+                        "id": "radar"
+                    },
+                    {
+                        "id": "rail-chain-signal"
+                    },
+                    {
+                        "id": "rail-signal"
+                    },
+                    {
+                        "id": "rocket"
+                    },
+                    {
+                        "id": "rocket-launcher"
+                    },
+                    {
+                        "id": "shotgun"
+                    },
+                    {
+                        "id": "shotgun-shells"
+                    },
+                    {
+                        "id": "splitter"
+                    },
+                    {
+                        "id": "steam-engine"
+                    },
+                    {
+                        "id": "steel-plate"
+                    },
+                    {
+                        "id": "storage-tank"
+                    },
+                    {
+                        "id": "submachine-gun"
+                    },
+                    {
+                        "id": "sulfuric-acid"
+                    },
+                    {
+                        "id": "train-stop"
+                    },
+                    {
+                        "id": "transport-belt"
+                    },
+                    {
+                        "id": "underground-belt"
+                    },
+                    {
+                        "id": "uranium-fuel-cell"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "iron-ore"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 3.5
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Iron stick",
+            "name_id": "iron-stick",
+            "number_id": 95,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "iron-axe"
+                    },
+                    {
+                        "id": "lamp"
+                    },
+                    {
+                        "id": "rail"
+                    },
+                    {
+                        "id": "refined-concrete"
+                    },
+                    {
+                        "id": "steel-axe"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 0.5
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Kovarex enrichment process",
+            "name_id": "kovarex-enrichment-process",
+            "number_id": 96,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 40,
+                        "id": "uranium-235"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "uranium-238"
+                    }
+                ],
+            "recipe_yield": null,
+                "time": 50
+            },
+            "type": "Process"
+        },
+    {
+            "category": "Production",
+            "full_name": "Lab",
+            "name_id": "lab",
+            "number_id": 97,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 4,
+                        "id": "transport-belt"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 2
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Lamp",
+            "name_id": "lamp",
+            "number_id": 98,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "iron-stick"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Logic"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Land mine",
+            "name_id": "land-mine",
+            "number_id": 99,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 2,
+                        "id": "explosives"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 4,
+                "time": 5
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Landfill",
+            "name_id": "landfill",
+            "number_id": 100,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 20,
+                        "id": "stone"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Laser turret",
+            "name_id": "laser-turret",
+            "number_id": 101,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "discharge-defense"
+                    },
+                    {
+                        "id": "personal-laser-defense"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 12,
+                        "id": "battery"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 20
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Light armor",
+            "name_id": "light-armor",
+            "number_id": 102,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 40,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 3
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Light oil",
+            "name_id": "light-oil",
+            "number_id": 103,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "flamethrower-ammo"
+                    }
+                ],
+            "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Liquid"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Light oil barrel",
+            "name_id": "light-oil-barrel",
+            "number_id": 104,
+            "recipe": {
+                "children": [],
+                "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "null"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Locomotive",
+            "name_id": "locomotive",
+            "number_id": 105,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "engine-unit"
+                    },
+                    {
+                        "amount": 30,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 4
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Logistic robot",
+            "name_id": "logistic-robot",
+            "number_id": 106,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 2,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "flying-robot-frame"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Long handed inserter",
+            "name_id": "long-handed-inserter",
+            "number_id": 107,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "inserter"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Low density structure",
+            "name_id": "low-density-structure",
+            "number_id": 108,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "rocket-part"
+                    },
+                    {
+                        "id": "satellite"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "plastic-bar"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 30
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Lubricant",
+            "name_id": "lubricant",
+            "number_id": 109,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "electric-engine-unit"
+                    },
+                    {
+                        "id": "express-splitter"
+                    },
+                    {
+                        "id": "express-transport-belt"
+                    },
+                    {
+                        "id": "express-underground-belt"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 10,
+                        "id": "heavy-oil"
+                    }
+                ],
+            "recipe_yield": 10,
+                "time": 1
+            },
+            "type": "Liquid"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Lubricant barrel",
+            "name_id": "lubricant-barrel",
+            "number_id": 110,
+            "recipe": {
+                "children": [],
+                "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "null"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Medium electric pole",
+            "name_id": "medium-electric-pole",
+            "number_id": 111,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 2,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Military science pack",
+            "name_id": "military-science-pack",
+            "number_id": 112,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "grenade"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "gun-turret"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "piercing-rounds-magazine"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 10
+            },
+            "type": "Science pack"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Modular armor",
+            "name_id": "modular-armor",
+            "number_id": 113,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 30,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 50,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 15
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Nightvision",
+            "name_id": "nightvision",
+            "number_id": 114,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Nuclear fuel",
+            "name_id": "nuclear-fuel",
+            "number_id": 115,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "rocket-fuel"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "uranium-235"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 60
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Nuclear fuel reprocessing",
+            "name_id": "nuclear-fuel-reprocessing",
+            "number_id": 116,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "used-up-uranium-fuel-cell"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "uranium-238"
+                    }
+                ],
+            "recipe_yield": null,
+                "time": 50
+            },
+            "type": "Process"
+        },
+    {
+            "category": "Production",
+            "full_name": "Nuclear reactor",
+            "name_id": "nuclear-reactor",
+            "number_id": 117,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 500,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 500,
+                        "id": "concrete"
+                    },
+                    {
+                        "amount": 500,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 500,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Offshore pump",
+            "name_id": "offshore-pump",
+            "number_id": 118,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 2,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "pipe"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Oil refinery",
+            "name_id": "oil-refinery",
+            "number_id": 119,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "pipe"
+                    },
+                    {
+                        "amount": 15,
+                        "id": "steel-plate"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "stone-brick"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Passive provider chest",
+            "name_id": "logistic-chest-passive-provider",
+            "number_id": 120,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "steel-chest"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Personal laser defense",
+            "name_id": "personal-laser-defense",
+            "number_id": 121,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "laser-turret"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Personal roboport",
+            "name_id": "personal-roboport",
+            "number_id": 122,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "personal-roboport-mk2"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 10,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 45,
+                        "id": "battery"
+                    },
+                    {
+                        "amount": 40,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Personal roboport MK2",
+            "name_id": "personal-roboport-mk2",
+            "number_id": 123,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "personal-roboport"
+                    },
+                    {
+                        "amount": 100,
+                        "id": "processing-unit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 20
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Petroleum gas",
+            "name_id": "petroleum-gas",
+            "number_id": 124,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "plastic-bar"
+                    },
+                    {
+                        "id": "sulfur"
+                    }
+                ],
+            "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Liquid"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Petroleum gas barrel",
+            "name_id": "petroleum-gas-barrel",
+            "number_id": 125,
+            "recipe": {
+                "children": [],
+                "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "null"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Piercing rounds magazine",
+            "name_id": "piercing-rounds-magazine",
+            "number_id": 126,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "defender-capsule"
+                    },
+                    {
+                        "id": "military-science-pack"
+                    },
+                    {
+                        "id": "uranium-rounds-magazine"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "firearm-magazine"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 3
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Piercing shotgun shells",
+            "name_id": "piercing-shotgun-shells",
+            "number_id": 127,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "shotgun-shells"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Pipe",
+            "name_id": "pipe",
+            "number_id": 128,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "artillery-wagon"
+                    },
+                    {
+                        "id": "boiler"
+                    },
+                    {
+                        "id": "chemical-plant"
+                    },
+                    {
+                        "id": "engine-unit"
+                    },
+                    {
+                        "id": "flamethrower-turret"
+                    },
+                    {
+                        "id": "fluid-wagon"
+                    },
+                    {
+                        "id": "heat-exchanger"
+                    },
+                    {
+                        "id": "offshore-pump"
+                    },
+                    {
+                        "id": "oil-refinery"
+                    },
+                    {
+                        "id": "pipe-to-ground"
+                    },
+                    {
+                        "id": "pump"
+                    },
+                    {
+                        "id": "pumpjack"
+                    },
+                    {
+                        "id": "rocket-silo"
+                    },
+                    {
+                        "id": "steam-engine"
+                    },
+                    {
+                        "id": "steam-turbine"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Pipe to ground",
+            "name_id": "pipe-to-ground",
+            "number_id": 129,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "pipe"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Pistol",
+            "name_id": "pistol",
+            "number_id": 130,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 5
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Plastic bar",
+            "name_id": "plastic-bar",
+            "number_id": 131,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "id": "cannon-shell"
+                    },
+                    {
+                        "id": "explosive-cannon-shell"
+                    },
+                    {
+                        "id": "low-density-structure"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "coal"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "petroleum-gas"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 1
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Poison capsule",
+            "name_id": "poison-capsule",
+            "number_id": 132,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "coal"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Portable fusion reactor",
+            "name_id": "portable-fusion-reactor",
+            "number_id": 133,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 250,
+                        "id": "processing-unit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Portable solar panel",
+            "name_id": "portable-solar-panel",
+            "number_id": 134,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "solar-panel"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Power armor",
+            "name_id": "power-armor",
+            "number_id": 135,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 20,
+                        "id": "electric-engine-unit"
+                    },
+                    {
+                        "amount": 40,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 40,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 20
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Power armor MK2",
+            "name_id": "power-armor-mk2",
+            "number_id": 136,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "effectivity-module-3"
+                    },
+                    {
+                        "amount": 40,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "speed-module-3"
+                    },
+                    {
+                        "amount": 40,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 25
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Power switch",
+            "name_id": "power-switch",
+            "number_id": 137,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "copper-cable"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 2
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Processing unit",
+            "name_id": "processing-unit",
+            "number_id": 138,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "artillery-targeting-remote"
+                    },
+                    {
+                        "id": "atomic-bomb"
+                    },
+                    {
+                        "id": "battery-mk2"
+                    },
+                    {
+                        "id": "discharge-defense"
+                    },
+                    {
+                        "id": "effectivity-module-2"
+                    },
+                    {
+                        "id": "effectivity-module-3"
+                    },
+                    {
+                        "id": "energy-shield-mk2"
+                    },
+                    {
+                        "id": "exoskeleton"
+                    },
+                    {
+                        "id": "high-tech-science-pack"
+                    },
+                    {
+                        "id": "personal-laser-defense"
+                    },
+                    {
+                        "id": "personal-roboport-mk2"
+                    },
+                    {
+                        "id": "portable-fusion-reactor"
+                    },
+                    {
+                        "id": "power-armor"
+                    },
+                    {
+                        "id": "power-armor-mk2"
+                    },
+                    {
+                        "id": "productivity-module-2"
+                    },
+                    {
+                        "id": "productivity-module-3"
+                    },
+                    {
+                        "id": "rocket-control-unit"
+                    },
+                    {
+                        "id": "rocket-silo"
+                    },
+                    {
+                        "id": "satellite"
+                    },
+                    {
+                        "id": "speed-module-2"
+                    },
+                    {
+                        "id": "speed-module-3"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 2,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "sulfuric-acid"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Production science pack",
+            "name_id": "production-science-pack",
+            "number_id": 139,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "electric-engine-unit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "electric-furnace"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 14
+            },
+            "type": "Science pack"
+        },
+    {
+            "category": "Production",
+            "full_name": "Productivity module",
+            "name_id": "productivity-module",
+            "number_id": 140,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "productivity-module-2"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "electronic-circuit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 15
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Production",
+            "full_name": "Productivity module 2",
+            "name_id": "productivity-module-2",
+            "number_id": 141,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "productivity-module-3"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 4,
+                        "id": "productivity-module"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 30
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Production",
+            "full_name": "Productivity module 3",
+            "name_id": "productivity-module-3",
+            "number_id": 142,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "productivity-module-2"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 60
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Programmable speaker",
+            "name_id": "programmable-speaker",
+            "number_id": 143,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "copper-cable"
+                    },
+                    {
+                        "amount": 4,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 2
+            },
+            "type": "Logic"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Pump",
+            "name_id": "pump",
+            "number_id": 144,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "engine-unit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "pipe"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 2
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Pumpjack",
+            "name_id": "pumpjack",
+            "number_id": 145,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "pipe"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Radar",
+            "name_id": "radar",
+            "number_id": 146,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "artillery-shell"
+                    },
+                    {
+                        "id": "artillery-targeting-remote"
+                    },
+                    {
+                        "id": "satellite"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Rail",
+            "name_id": "rail",
+            "number_id": 147,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "iron-stick"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "steel-plate"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "stone"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 0.5
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Rail chain signal",
+            "name_id": "rail-chain-signal",
+            "number_id": 148,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Rail signal",
+            "name_id": "rail-signal",
+            "number_id": 149,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Raw fish",
+            "name_id": "raw-fish",
+            "number_id": 150,
+            "recipe": {
+                "children": [],
+                "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Raw wood",
+            "name_id": "raw-wood",
+            "number_id": 151,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "wood"
+                    }
+                ],
+            "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Resource"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Red wire",
+            "name_id": "red-wire",
+            "number_id": 152,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "copper-cable"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "electronic-circuit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Logic"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Refined concrete",
+            "name_id": "refined-concrete",
+            "number_id": 153,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "refined-hazard-concrete"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 20,
+                        "id": "concrete"
+                    },
+                    {
+                        "amount": 8,
+                        "id": "iron-stick"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "steel-plate"
+                    },
+                    {
+                        "amount": 100,
+                        "id": "water"
+                    }
+                ],
+            "recipe_yield": 10,
+                "time": 15
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Refined hazard concrete",
+            "name_id": "refined-hazard-concrete",
+            "number_id": 154,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "refined-concrete"
+                    }
+                ],
+            "recipe_yield": 10,
+                "time": 0.25
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Production",
+            "full_name": "Repair pack",
+            "name_id": "repair-pack",
+            "number_id": 155,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 2,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "iron-gear-wheel"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Tool"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Requester chest",
+            "name_id": "logistic-chest-requester",
+            "number_id": 156,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "steel-chest"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Roboport",
+            "name_id": "roboport",
+            "number_id": 157,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 45,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 45,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 45,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Rocket",
+            "name_id": "rocket",
+            "number_id": 158,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "explosive-rocket"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "explosives"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Rocket control unit",
+            "name_id": "rocket-control-unit",
+            "number_id": 159,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "rocket-part"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "speed-module"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 30
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Rocket fuel",
+            "name_id": "rocket-fuel",
+            "number_id": 160,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "nuclear-fuel"
+                    },
+                    {
+                        "id": "rocket-part"
+                    },
+                    {
+                        "id": "satellite"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 10,
+                        "id": "solid-fuel"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 30
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Rocket launcher",
+            "name_id": "rocket-launcher",
+            "number_id": 161,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Rocket part",
+            "name_id": "rocket-part",
+            "number_id": 162,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "space-science-pack"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 10,
+                        "id": "low-density-structure"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "rocket-control-unit"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "rocket-fuel"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 3
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Rocket silo",
+            "name_id": "rocket-silo",
+            "number_id": 163,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1000,
+                        "id": "concrete"
+                    },
+                    {
+                        "amount": 200,
+                        "id": "electric-engine-unit"
+                    },
+                    {
+                        "amount": 100,
+                        "id": "pipe"
+                    },
+                    {
+                        "amount": 200,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 1000,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 30
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Satellite",
+            "name_id": "satellite",
+            "number_id": 164,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "space-science-pack"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 100,
+                        "id": "accumulator"
+                    },
+                    {
+                        "amount": 100,
+                        "id": "low-density-structure"
+                    },
+                    {
+                        "amount": 100,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "radar"
+                    },
+                    {
+                        "amount": 50,
+                        "id": "rocket-fuel"
+                    },
+                    {
+                        "amount": 100,
+                        "id": "solar-panel"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 5
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Science pack 1",
+            "name_id": "science-pack-1",
+            "number_id": 165,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "iron-gear-wheel"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 5
+            },
+            "type": "Science pack"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Science pack 2",
+            "name_id": "science-pack-2",
+            "number_id": 166,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "inserter"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "transport-belt"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 6
+            },
+            "type": "Science pack"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Science pack 3",
+            "name_id": "science-pack-3",
+            "number_id": 167,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "electric-mining-drill"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "engine-unit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 12
+            },
+            "type": "Science pack"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Shotgun",
+            "name_id": "shotgun",
+            "number_id": 168,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 15,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "wood"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Shotgun shells",
+            "name_id": "shotgun-shells",
+            "number_id": 169,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "piercing-shotgun-shells"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 2,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 3
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Slowdown capsule",
+            "name_id": "slowdown-capsule",
+            "number_id": 170,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "coal"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Small electric pole",
+            "name_id": "small-electric-pole",
+            "number_id": 171,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 2,
+                        "id": "copper-cable"
+                    },
+                    {
+                        "amount": 2,
+                        "id": "wood"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Solar panel",
+            "name_id": "solar-panel",
+            "number_id": 172,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "portable-solar-panel"
+                    },
+                    {
+                        "id": "satellite"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 15,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Solid fuel",
+            "name_id": "solid-fuel",
+            "number_id": 173,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "rocket-fuel"
+                    }
+                ],
+            "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Resource"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Space science pack",
+            "name_id": "space-science-pack",
+            "number_id": 174,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 100,
+                        "id": "rocket-part"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "satellite"
+                    }
+                ],
+            "recipe_yield": 1000,
+                "time": 300
+            },
+            "type": "Science pack"
+        },
+    {
+            "category": "Production",
+            "full_name": "Speed module",
+            "name_id": "speed-module",
+            "number_id": 175,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "assembling-machine-3"
+                    },
+                    {
+                        "id": "destroyer-capsule"
+                    },
+                    {
+                        "id": "high-tech-science-pack"
+                    },
+                    {
+                        "id": "rocket-control-unit"
+                    },
+                    {
+                        "id": "speed-module-2"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "electronic-circuit"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 15
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Production",
+            "full_name": "Speed module 2",
+            "name_id": "speed-module-2",
+            "number_id": 176,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "speed-module-3"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 4,
+                        "id": "speed-module"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 30
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Production",
+            "full_name": "Speed module 3",
+            "name_id": "speed-module-3",
+            "number_id": 177,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "power-armor-mk2"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "processing-unit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "speed-module-2"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 60
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Splitter",
+            "name_id": "splitter",
+            "number_id": 178,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "fast-splitter"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 4,
+                        "id": "transport-belt"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 1
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Stack filter inserter",
+            "name_id": "stack-filter-inserter",
+            "number_id": 179,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "stack-inserter"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Stack inserter",
+            "name_id": "stack-inserter",
+            "number_id": 180,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "stack-filter-inserter"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 15,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "fast-inserter"
+                    },
+                    {
+                        "amount": 15,
+                        "id": "iron-gear-wheel"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Steam",
+            "name_id": "steam",
+            "number_id": 181,
+            "recipe": {
+                "children": [],
+                "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Liquid"
+        },
+    {
+            "category": "Production",
+            "full_name": "Steam engine",
+            "name_id": "steam-engine",
+            "number_id": 182,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 8,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "pipe"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Steam turbine",
+            "name_id": "steam-turbine",
+            "number_id": 183,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 50,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 50,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 20,
+                        "id": "pipe"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 3
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Steel axe",
+            "name_id": "steel-axe",
+            "number_id": 184,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 2,
+                        "id": "iron-stick"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Tool"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Steel chest",
+            "name_id": "steel-chest",
+            "number_id": 185,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "logistic-chest-active-provider"
+                    },
+                    {
+                        "id": "logistic-chest-buffer"
+                    },
+                    {
+                        "id": "logistic-chest-passive-provider"
+                    },
+                    {
+                        "id": "logistic-chest-requester"
+                    },
+                    {
+                        "id": "logistic-chest-storage"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 8,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Production",
+            "full_name": "Steel furnace",
+            "name_id": "steel-furnace",
+            "number_id": 186,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 6,
+                        "id": "steel-plate"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "stone-brick"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 3
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Steel plate",
+            "name_id": "steel-plate",
+            "number_id": 187,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "artillery-turret"
+                    },
+                    {
+                        "id": "artillery-wagon"
+                    },
+                    {
+                        "id": "battery-mk1"
+                    },
+                    {
+                        "id": "beacon"
+                    },
+                    {
+                        "id": "big-electric-pole"
+                    },
+                    {
+                        "id": "cannon-shell"
+                    },
+                    {
+                        "id": "car"
+                    },
+                    {
+                        "id": "cargo-wagon"
+                    },
+                    {
+                        "id": "centrifuge"
+                    },
+                    {
+                        "id": "chemical-plant"
+                    },
+                    {
+                        "id": "cluster-grenade"
+                    },
+                    {
+                        "id": "combat-shotgun"
+                    },
+                    {
+                        "id": "discharge-defense"
+                    },
+                    {
+                        "id": "electric-furnace"
+                    },
+                    {
+                        "id": "empty-barrel"
+                    },
+                    {
+                        "id": "energy-shield"
+                    },
+                    {
+                        "id": "engine-unit"
+                    },
+                    {
+                        "id": "exoskeleton"
+                    },
+                    {
+                        "id": "explosive-cannon-shell"
+                    },
+                    {
+                        "id": "flamethrower"
+                    },
+                    {
+                        "id": "flamethrower-ammo"
+                    },
+                    {
+                        "id": "flamethrower-turret"
+                    },
+                    {
+                        "id": "fluid-wagon"
+                    },
+                    {
+                        "id": "flying-robot-frame"
+                    },
+                    {
+                        "id": "gate"
+                    },
+                    {
+                        "id": "heat-exchanger"
+                    },
+                    {
+                        "id": "heat-pipe"
+                    },
+                    {
+                        "id": "heavy-armor"
+                    },
+                    {
+                        "id": "land-mine"
+                    },
+                    {
+                        "id": "laser-turret"
+                    },
+                    {
+                        "id": "locomotive"
+                    },
+                    {
+                        "id": "low-density-structure"
+                    },
+                    {
+                        "id": "medium-electric-pole"
+                    },
+                    {
+                        "id": "modular-armor"
+                    },
+                    {
+                        "id": "nightvision"
+                    },
+                    {
+                        "id": "nuclear-reactor"
+                    },
+                    {
+                        "id": "oil-refinery"
+                    },
+                    {
+                        "id": "personal-laser-defense"
+                    },
+                    {
+                        "id": "personal-roboport"
+                    },
+                    {
+                        "id": "piercing-rounds-magazine"
+                    },
+                    {
+                        "id": "piercing-shotgun-shells"
+                    },
+                    {
+                        "id": "poison-capsule"
+                    },
+                    {
+                        "id": "portable-solar-panel"
+                    },
+                    {
+                        "id": "power-armor"
+                    },
+                    {
+                        "id": "power-armor-mk2"
+                    },
+                    {
+                        "id": "pump"
+                    },
+                    {
+                        "id": "pumpjack"
+                    },
+                    {
+                        "id": "rail"
+                    },
+                    {
+                        "id": "refined-concrete"
+                    },
+                    {
+                        "id": "roboport"
+                    },
+                    {
+                        "id": "rocket-silo"
+                    },
+                    {
+                        "id": "slowdown-capsule"
+                    },
+                    {
+                        "id": "solar-panel"
+                    },
+                    {
+                        "id": "steel-axe"
+                    },
+                    {
+                        "id": "steel-chest"
+                    },
+                    {
+                        "id": "steel-furnace"
+                    },
+                    {
+                        "id": "storage-tank"
+                    },
+                    {
+                        "id": "substation"
+                    },
+                    {
+                        "id": "tank"
+                    },
+                    {
+                        "id": "train-stop"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 35
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Stone",
+            "name_id": "stone",
+            "number_id": 188,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "landfill"
+                    },
+                    {
+                        "id": "rail"
+                    },
+                    {
+                        "id": "stone-brick"
+                    },
+                    {
+                        "id": "stone-furnace"
+                    }
+                ],
+            "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Resource"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Stone brick",
+            "name_id": "stone-brick",
+            "number_id": 189,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "concrete"
+                    },
+                    {
+                        "id": "electric-furnace"
+                    },
+                    {
+                        "id": "oil-refinery"
+                    },
+                    {
+                        "id": "steel-furnace"
+                    },
+                    {
+                        "id": "stone-wall"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 2,
+                        "id": "stone"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 3.5
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Production",
+            "full_name": "Stone furnace",
+            "name_id": "stone-furnace",
+            "number_id": 190,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "boiler"
+                    },
+                    {
+                        "id": "burner-mining-drill"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "stone"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Stone wall",
+            "name_id": "stone-wall",
+            "number_id": 191,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "gate"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 5,
+                        "id": "stone-brick"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Storage chest",
+            "name_id": "logistic-chest-storage",
+            "number_id": 192,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "steel-chest"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Storage tank",
+            "name_id": "storage-tank",
+            "number_id": 193,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "fluid-wagon"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 20,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 3
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Submachine gun",
+            "name_id": "submachine-gun",
+            "number_id": 194,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Substation",
+            "name_id": "substation",
+            "number_id": 195,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "copper-plate"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Sulfur",
+            "name_id": "sulfur",
+            "number_id": 196,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "explosives"
+                    },
+                    {
+                        "id": "sulfuric-acid"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 30,
+                        "id": "petroleum-gas"
+                    },
+                    {
+                        "amount": 30,
+                        "id": "water"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 1
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Sulfuric acid",
+            "name_id": "sulfuric-acid",
+            "number_id": 197,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "battery"
+                    },
+                    {
+                        "id": "processing-unit"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "sulfur"
+                    },
+                    {
+                        "amount": 100,
+                        "id": "water"
+                    }
+                ],
+            "recipe_yield": 50,
+                "time": 1
+            },
+            "type": "Liquid"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Sulfuric acid barrel",
+            "name_id": "sulfuric-acid-barrel",
+            "number_id": 198,
+            "recipe": {
+                "children": [],
+                "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "null"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Tank",
+            "name_id": "tank",
+            "number_id": 199,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "advanced-circuit"
+                    },
+                    {
+                        "amount": 32,
+                        "id": "engine-unit"
+                    },
+                    {
+                        "amount": 15,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 50,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 8
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Train stop",
+            "name_id": "train-stop",
+            "number_id": 200,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 5,
+                        "id": "electronic-circuit"
+                    },
+                    {
+                        "amount": 10,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 3,
+                        "id": "steel-plate"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Transport belt",
+            "name_id": "transport-belt",
+            "number_id": 201,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "fast-transport-belt"
+                    },
+                    {
+                        "id": "lab"
+                    },
+                    {
+                        "id": "science-pack-2"
+                    },
+                    {
+                        "id": "splitter"
+                    },
+                    {
+                        "id": "underground-belt"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "iron-gear-wheel"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "iron-plate"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Underground belt",
+            "name_id": "underground-belt",
+            "number_id": 202,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "fast-underground-belt"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 10,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 5,
+                        "id": "transport-belt"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 1
+            },
+            "type": "Machinery"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Uranium cannon shell",
+            "name_id": "uranium-cannon-shell",
+            "number_id": 203,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "cannon-shell"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "uranium-238"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 12
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Uranium fuel cell",
+            "name_id": "uranium-fuel-cell",
+            "number_id": 204,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "used-up-uranium-fuel-cell"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 10,
+                        "id": "iron-plate"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "uranium-235"
+                    },
+                    {
+                        "amount": 19,
+                        "id": "uranium-238"
+                    }
+                ],
+            "recipe_yield": 10,
+                "time": 10
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Uranium ore",
+            "name_id": "uranium-ore",
+            "number_id": 205,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "uranium-processing"
+                    }
+                ],
+            "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Resource"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Uranium processing",
+            "name_id": "uranium-processing",
+            "number_id": 206,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 10,
+                        "id": "uranium-ore"
+                    },
+                    {
+                        "amount": 0.007,
+                        "id": "uranium-235"
+                    },
+                    {
+                        "amount": 0.993,
+                        "id": "uranium-238"
+                    }
+                ],
+            "recipe_yield": null,
+                "time": 10
+            },
+            "type": "Process"
+        },
+    {
+            "category": "Combat",
+            "full_name": "Uranium rounds magazine",
+            "name_id": "uranium-rounds-magazine",
+            "number_id": 207,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 1,
+                        "id": "piercing-rounds-magazine"
+                    },
+                    {
+                        "amount": 1,
+                        "id": "uranium-238"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 10
+            },
+            "type": "Combat"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Uranium-235",
+            "name_id": "uranium-235",
+            "number_id": 208,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "atomic-bomb"
+                    },
+                    {
+                        "id": "kovarex-enrichment-process"
+                    },
+                    {
+                        "id": "nuclear-fuel"
+                    },
+                    {
+                        "id": "uranium-fuel-cell"
+                    },
+                    {
+                        "id": "uranium-processing"
+                    }
+                ],
+            "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Resource"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Uranium-238",
+            "name_id": "uranium-238",
+            "number_id": 209,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "explosive-uranium-cannon-shell"
+                    },
+                    {
+                        "id": "kovarex-enrichment-process"
+                    },
+                    {
+                        "id": "nuclear-fuel-reprocessing"
+                    },
+                    {
+                        "id": "uranium-cannon-shell"
+                    },
+                    {
+                        "id": "uranium-fuel-cell"
+                    },
+                    {
+                        "id": "uranium-processing"
+                    },
+                    {
+                        "id": "uranium-rounds-magazine"
+                    }
+                ],
+            "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Resource"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Used up uranium fuel cell",
+            "name_id": "used-up-uranium-fuel-cell",
+            "number_id": 210,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "nuclear-fuel-reprocessing"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "uranium-fuel-cell"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 200
+            },
+            "type": "Item"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Water",
+            "name_id": "water",
+            "number_id": 211,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "concrete"
+                    },
+                    {
+                        "id": "explosives"
+                    },
+                    {
+                        "id": "refined-concrete"
+                    },
+                    {
+                        "id": "sulfur"
+                    },
+                    {
+                        "id": "sulfuric-acid"
+                    }
+                ],
+            "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "Liquid"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Water barrel",
+            "name_id": "water-barrel",
+            "number_id": 212,
+            "recipe": {
+                "children": [],
+                "parents": [],
+                "recipe_yield": null,
+                "time": null
+            },
+            "type": "null"
+        },
+    {
+            "category": "Intermediate product",
+            "full_name": "Wood",
+            "name_id": "wood",
+            "number_id": 213,
+            "recipe": {
+                "children": [
+                    {
+                        "id": "combat-shotgun"
+                    },
+                    {
+                        "id": "shotgun"
+                    },
+                    {
+                        "id": "small-electric-pole"
+                    },
+                    {
+                        "id": "wooden-chest"
+                    }
+                ],
+            "parents": [
+                    {
+                        "amount": 1,
+                        "id": "raw-wood"
+                    }
+                ],
+            "recipe_yield": 2,
+                "time": 0.5
+            },
+            "type": "Intermediate product"
+        },
+    {
+            "category": "Logistics",
+            "full_name": "Wooden chest",
+            "name_id": "wooden-chest",
+            "number_id": 214,
+            "recipe": {
+                "children": [],
+                "parents": [
+                    {
+                        "amount": 4,
+                        "id": "wood"
+                    }
+                ],
+            "recipe_yield": 1,
+                "time": 0.5
+            },
+            "type": "Machinery"
+        }
+]
